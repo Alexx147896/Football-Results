@@ -1,0 +1,39 @@
+
+
+.header {
+    text-align: center;
+    background-color: #6C757d;
+}
+
+.headerText {
+    z-index: 1;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+
+.textContainer {
+    text-align: center;
+    padding: 0rem 8rem;
+    margin: 0 30rem;
+    font-size: 1rem;
+}
+
+p {
+    padding: 0.5rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+li {
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .textContainer {
+        padding: 2rem 2rem;
+        margin: 0;
+    }
+}

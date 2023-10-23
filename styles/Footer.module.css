@@ -1,0 +1,65 @@
+
+.container {
+    background-color: #212529;
+    margin-top: 4rem;
+}
+
+
+  
+  /* Styling for the link container */
+  .linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Styling for the links */
+  .linkContainer a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+    margin: 0.5rem;
+    padding: 0 1rem;
+  }
+
+  .linkContainer a:hover {
+    opacity: 1;
+  }
+
+
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    
+    .linkContainer {
+      padding: 0.2rem;
+    }
+  
+    .linkContainer a {
+      font-size: 0.9rem;
+      padding-top: 0.1rem;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+    }
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+  }
+
+  .copyright span {
+    color: red;
+  }
+
+  .dot {
+    transform: scale(1.25);
+    color: white;
+  }
+
+ 

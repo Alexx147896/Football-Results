@@ -1,0 +1,52 @@
+/* Your existing styles */
+/* ... */
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+  
+  .gridItem {
+    margin-bottom: 0.4rem;
+  }
+  
+  .logos {
+    width:  8rem;
+    height: 8rem;
+    margin-top: 4rem;
+  }
+  
+
+  @media (max-width: 900px) {
+    .gridContainer {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .gridContainer {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     text-align: center;
+    }
+    .logos {
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .gridContainer {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     text-align: center;
+    }
+  
+  }

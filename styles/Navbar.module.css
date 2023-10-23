@@ -1,0 +1,44 @@
+
+
+.container {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.nav_links {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 2rem;
+    opacity: 0.8;
+}
+
+.active:hover {
+ opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+  display: block;
+}
+
+.logo {
+  display: block;
+}
+
+}
