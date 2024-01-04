@@ -7,4 +7,4 @@ This site provides football livescores. You can also find standings the best eur
 
 # **💻 Stack:**
 
-I used React and an API to fetch the live results and standings
+I used React and an API to fetch live results and standings.
