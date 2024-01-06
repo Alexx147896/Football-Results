@@ -58,12 +58,6 @@ export default function LiveGames() {
                                         <img className={styles.logos} src={game.strAwayTeamBadge + '/tiny'} alt="Away Team Badge" />
                                     ) : null}
                                     {game.strAwayTeam ? <p>{game.strAwayTeam}</p> : null}
-                                   
-
-
-                    
-
-
 
                                 </div>
 

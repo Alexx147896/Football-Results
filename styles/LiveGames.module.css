@@ -37,7 +37,7 @@
     }
 
     .container {
-      margin: 1rem 20rem;
+      margin: 1rem 25rem;
     }
 
     .matchesTable { 
@@ -51,14 +51,14 @@
     }
 
     .matchCard {
-    padding: 1rem;
     font-weight: bold;
-
     }
 
     .matches {
       display: grid;
       grid-template-columns: repeat(8, 1fr);
+      align-items: center;
+      margin: 0 auto;
     }
 
     .minutes {
@@ -145,39 +145,12 @@
       }
 
     .minutes {
-      padding: 0;
+      padding: 0 0.5rem;
     }
     }
 
 
-    @media (max-width: 768px) {
-      .container {
-        margin: 1rem;
-        font-size: small;
-    }
 
-    .matches {
-    padding: 0;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
-  
-    }
-
-    .logos {
-      transform: scale(0.7);
-      margin: 0;
-    }
-
-    .minutes {
-      display: none;
-    }
-
-    .minutes_small {
-      display: flex;
-      justify-content: center;
-      color: #20c997;
-      font-weight: bolder;
-    }
 
  
-  }
+  
